@@ -44,15 +44,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int1.putExtra("NOMBRE", nombre.getText().toString());
             int1.putExtra("CORREO", email.getText().toString());
 
-            int1.putExtra("texto1", b1.getText().toString());
-            int1.putExtra("texto2", b2.getText().toString());
-            int1.putExtra("texto3", b3.getText().toString());
-            int1.putExtra("texto4", b4.getText().toString());
-            int1.putExtra("texto5", b5.getText().toString());
-            int1.putExtra("texto6", b6.getText().toString());
-            int1.putExtra("texto7", b7.getText().toString());
-            int1.putExtra("texto8", b8.getText().toString());
-            int1.putExtra("texto9", b9.getText().toString());
+            int1.putExtra("producto1", b1.getText().toString());
+            int1.putExtra("producto2", b2.getText().toString());
+            int1.putExtra("producto3", b3.getText().toString());
+            int1.putExtra("producto4", b4.getText().toString());
+            int1.putExtra("producto5", b5.getText().toString());
+            int1.putExtra("producto6", b6.getText().toString());
+            int1.putExtra("producto7", b7.getText().toString());
+            int1.putExtra("producto8", b8.getText().toString());
+            int1.putExtra("producto9", b9.getText().toString());
             startActivity(int1);
         });
 
@@ -65,9 +65,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b7.setOnClickListener(this);
         b8.setOnClickListener(this);
         b9.setOnClickListener(this);
-
-
-
     }
 
     @Override
