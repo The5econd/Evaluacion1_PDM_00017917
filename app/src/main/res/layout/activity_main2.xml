@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto1"/>
                 <Button
-                    android:id="@+id/boton_1"
+                    android:id="@+id/boton_11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -85,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto2"/>
                 <Button
-                    android:id="@+id/boton_2"
+                    android:id="@+id/boton_22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -102,7 +102,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto3"/>
                 <Button
-                    android:id="@+id/boton_3"
+                    android:id="@+id/boton_33"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -126,7 +126,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto4"/>
                 <Button
-                    android:id="@+id/boton_4"
+                    android:id="@+id/boton_44"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -144,7 +144,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto5"/>
                 <Button
-                    android:id="@+id/boton_5"
+                    android:id="@+id/boton_55"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -161,7 +161,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto6"/>
                 <Button
-                    android:id="@+id/boton_6"
+                    android:id="@+id/boton_66"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -185,7 +185,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto7"/>
                 <Button
-                    android:id="@+id/boton_7"
+                    android:id="@+id/boton_77"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -203,7 +203,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto8"/>
                 <Button
-                    android:id="@+id/boton_8"
+                    android:id="@+id/boton_88"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -220,7 +220,7 @@
                     android:layout_height="wrap_content"
                     android:text="Producto9"/>
                 <Button
-                    android:id="@+id/boton_9"
+                    android:id="@+id/boton_99"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"

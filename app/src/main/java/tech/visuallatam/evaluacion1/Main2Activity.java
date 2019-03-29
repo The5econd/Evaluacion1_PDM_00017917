@@ -11,12 +11,15 @@ public class Main2Activity extends AppCompatActivity {
     private TextView name2, mail2;
     private Button shareB;
     private String txt1, txt2, cadena;
+    private Button bb1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         name2 = findViewById(R.id.name2);
         mail2 = findViewById(R.id.mail2);
+
+        bb1 = findViewById(R.id.boton_11);
         Intent mIntent = getIntent();
 
         if(mIntent != null){
@@ -26,6 +29,12 @@ public class Main2Activity extends AppCompatActivity {
             String mail = mIntent.getStringExtra("CORREO");
             mail2.setText(mail);
             txt2 = mail2.getText().toString();
+
+
+            String texto1 = mIntent.getStringExtra("texto1");
+            bb1.setText(texto1);
+
+
         }
         cadena = txt1 + "\n" + txt2;
 

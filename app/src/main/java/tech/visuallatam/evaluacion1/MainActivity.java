@@ -43,7 +43,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent int1 = new Intent(MainActivity.this,Main2Activity.class);
             int1.putExtra("NOMBRE", nombre.getText().toString());
             int1.putExtra("CORREO", email.getText().toString());
-            int1.putExtra()
+
+            int1.putExtra("texto1", b1.getText().toString());
+            int1.putExtra("texto2", b2.getText().toString());
+            int1.putExtra("texto3", b3.getText().toString());
+            int1.putExtra("texto4", b4.getText().toString());
+            int1.putExtra("texto5", b5.getText().toString());
+            int1.putExtra("texto6", b6.getText().toString());
+            int1.putExtra("texto7", b7.getText().toString());
+            int1.putExtra("texto8", b8.getText().toString());
+            int1.putExtra("texto9", b9.getText().toString());
             startActivity(int1);
         });
 
